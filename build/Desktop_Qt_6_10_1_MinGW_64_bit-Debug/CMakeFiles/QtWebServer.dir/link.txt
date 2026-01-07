@@ -1,0 +1,3 @@
+D:\Downloads\bin\cmake.exe -E rm -f CMakeFiles\QtWebServer.dir/objects.a
+D:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\QtWebServer.dir/objects.a @CMakeFiles\QtWebServer.dir\objects1.rsp
+D:\Qt\Tools\mingw1310_64\bin\g++.exe -DQT_QML_DEBUG -g -Wl,--whole-archive CMakeFiles\QtWebServer.dir/objects.a -Wl,--no-whole-archive -o QtWebServer.exe -Wl,--out-implib,libQtWebServer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\QtWebServer.dir\linkLibs.rsp

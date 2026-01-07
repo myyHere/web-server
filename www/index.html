@@ -1,14 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Qt WebServer 测试页</title>
 </head>
-
 <body>
-    <h1>Hello, World!!!</h1>
-</body>
 
+<h1>Qt WebServer 测试</h1>
+
+<hr>
+
+<h2>GET 请求测试</h2>
+<p>
+    <a href="/test/index.html">点我请求 /test.html（不存在就是 404）</a>
+</p>
+
+<hr>
+
+<h2>POST 表单测试</h2>
+
+<form method="POST" action="/">
+    <label>
+        用户名：
+        <input type="text" name="username">
+    </label>
+    <br><br>
+
+    <label>
+        密码：
+        <input type="password" name="password">
+    </label>
+    <br><br>
+
+    <input type="submit" value="提交 POST">
+</form>
+
+<hr>
+
+</body>
 </html>
